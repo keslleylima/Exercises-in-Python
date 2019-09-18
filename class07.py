@@ -36,7 +36,7 @@ for i in range(1, 11):
 
 # Challenge 10
 n1 = float(input('how much money you got?\n'))
-dolar = float(3.27)
+dolar = float(4.08)
 print('you got {} dollars'.format(n1 / dolar))
 
 # Challenge 11
@@ -52,3 +52,8 @@ print('the price with discount of 5% is', n1*0.95)
 # Challenge 13
 n1 = float(input('what is your salary?\n'))
 print('your new salary with an increase of 15% is', n1*1.15)
+
+#Challange 14
+tempc = float(input('type the weather in Celsius\n'))
+tempf = (tempc * 9/5) + 32
+print('the weather in Fahrenheit is ', tempf)
