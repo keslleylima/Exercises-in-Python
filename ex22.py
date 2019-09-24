@@ -1,0 +1,7 @@
+fullName = input('What is your name?')
+print('your name in upper is: ', fullName.upper())
+print('your name in lower is: ', fullName.lower())
+print('name lenght with the spaces: ', len(fullName))
+print('name lenght without the spaces: ', len(fullName.strip()))
+fullNameSplited = fullName.split()
+print(len(fullNameSplited[1]))
